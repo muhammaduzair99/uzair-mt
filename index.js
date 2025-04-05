@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/public'));
 
 // Route to handle the default page
 app.get('/', function(request, response) {
-  response.send('Hello World this is from uzair new test branch!');
+  response.send('Hello World this is from uzair auto trigger test branch!');
 });
 
 // Listen on all interfaces (0.0.0.0), not just localhost
